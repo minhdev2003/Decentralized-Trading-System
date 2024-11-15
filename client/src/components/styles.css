@@ -1,0 +1,189 @@
+/* header styles */
+/* Ngoc Minh Ngo - 103496945 */
+.header {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+.navbar {
+  background-color: #222223  ;
+}
+
+
+.error {
+  color: #fff;
+}
+
+
+
+.btn-success {
+  color: #fff;
+  background-color: #007bff !important ;
+  border: 5px !important;
+  margin-left: 3px;
+}
+
+.search {
+  color: #e1dede ;
+}
+.d-block  {
+  max-width: 100%;
+  height: auto;
+
+}
+
+
+
+.cartitem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  margin-bottom: 20px;
+}
+
+.cartItemImg {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.cartItemDetail {
+  display: flex;
+  flex: 1;
+  padding: 0 20px;
+  flex-direction: column;
+}
+
+/* Home Page */
+
+.home {
+  display: flex;
+  background-color: #24252A;
+}
+
+
+.card {
+  border: none !important;
+}
+
+.card-body {
+  background-color: #222223;
+  color: #fff;
+
+}
+
+.dropdown-menu{
+  background-color: #e1dede !important;
+  color: #fff;
+
+}
+
+.list-group-item {
+  background-color: #222223 !important;
+  color: #c8c6c6;
+
+}
+
+
+.filters {
+  background-color: #222223;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  height: 86vh;
+}
+
+.btn-light {
+  background-color: rgba(0,136,169,1);
+  border-radius: 5px;
+}
+
+.filters > span {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.productContainer {
+  display: flex;
+  width: 78%;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+.products {
+  width: 30%;
+  margin: 10px;
+}
+
+.summary {
+  width: 30%;
+}
+
+.custom-select-arrow {
+  appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin-right: -25px;
+}
+
+
+/* Footer*/
+footer {
+  background-color: #222223;
+}
+
+@media (max-width: 576px) {
+  .navbar-text {
+    max-width: 300px;
+  }
+}
+
+
+.HistoryTitle {
+  color: white;
+}
+
+/* Media Queries */
+@media (max-width: 771px) {
+  .filters {
+    width: 40%;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  .filters > span {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 18px !important;
+  }
+
+  .productContainer {
+    width: 58%;
+    padding: 0;
+  }
+
+  .search {
+    display: none !important;
+  }
+
+  .products {
+    width: 100%;
+  }
+}
+
